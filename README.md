@@ -1,6 +1,5 @@
 # TP2
 ex1 ISMAIL MELLITI , TP2 ,
-classDiagram
     class Article {
         # int numinventaire
         # String designation
