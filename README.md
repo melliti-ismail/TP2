@@ -1,6 +1,9 @@
 # TP2
-ex1 ISMAIL MELLITI , TP2 ,
-    class Article {
+ex1 ISMAIL MELLITI , TP2 
+
+
+
+        class Article {
         # int numinventaire
         # String designation
         # String couleur
@@ -15,15 +18,13 @@ ex1 ISMAIL MELLITI , TP2 ,
         + String getPrix()
         + String getFamille()
     }
-
-    class Article_Lot {
+        class Article_Lot {
         - int quantite
         + Article_Lot(int numinventaire, String designation, String couleur, double prix, String famille, int quantite)
         + String toString()
         + int getQuantite()
         + void setQuantite(int quantite)
     }
-
     class Magasin {
         - String nom
         - List~Article~ listeArticles
